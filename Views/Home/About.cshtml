@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+    <p>
+        This is my first MVC application. It's a good model, but for a simple application, it still requires a large amount of library files.
+    </p>
+
+</article>
+
+<aside>
+    <h3>MVC4</h3>
+    <p>
+        MVC On the Go
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    </ul>
+</aside>
